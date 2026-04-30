@@ -2,6 +2,8 @@
 
 An interactive Streamlit app for exploring Bayesian inference with the Beta-Binomial conjugate model.
 
+https://beta-binomial-simulator.streamlit.app
+
 ## What it does
 
 Set prior beliefs and observed data via sliders — the app updates the posterior in real time and shows:
@@ -33,7 +35,7 @@ uv run streamlit run app.py
 | File | Description |
 |------|-------------|
 | `app.py` | Streamlit app |
+| `BetaBinomial.ipynb` | Jupiter Notebook with exercise |
 | `model.stan` | Stan model (Beta prior + Binomial likelihood + posterior predictive) |
-| `main.py` | Stan inference script via cmdstanpy |
 | `pyproject.toml` | Project dependencies (uv) |
 | `requirements.txt` | Runtime dependencies for Streamlit Cloud |
