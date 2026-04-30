@@ -11,6 +11,7 @@ parameters {
 model {
   theta ~ beta(alpha, beta); // prior
   y ~ binomial(N, theta); // likelihood
+
 }
 generated quantities {
   int y_pred;
