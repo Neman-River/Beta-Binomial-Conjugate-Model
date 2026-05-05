@@ -12,6 +12,8 @@ wheels/
 
 # Compiled Stan binary
 model
+model 2
+model.stan
 
 # Jupyter notebooks (kept out of repo)
 pymc_exercise.ipynb

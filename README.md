@@ -36,6 +36,5 @@ uv run streamlit run app.py
 |------|-------------|
 | `app.py` | Streamlit app |
 | `BetaBinomial.ipynb` | Jupiter Notebook with exercise |
-| `model.stan` | Stan model (Beta prior + Binomial likelihood + posterior predictive) |
 | `pyproject.toml` | Project dependencies (uv) |
 | `requirements.txt` | Runtime dependencies for Streamlit Cloud |
